@@ -1,7 +1,7 @@
 <?php 
     global $tituloPagina;
     $tituloPagina = "Sobre nós";
-    include('Partes/cabecalho.php') 
+    include_once('Partes/Cabecalho.php') 
 ?>
         <article>
             <header class="pagina-cabecalho">
@@ -24,4 +24,4 @@
                     delectus fugiat quisquam rerum. Dolorem, saepe perspiciatis?</p>
             </section>
         </article>
-        <?php include('Partes/rodape.php'); ?>
+        <?php include_once('Partes/Rodape.php'); ?>

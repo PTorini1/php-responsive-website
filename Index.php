@@ -1,7 +1,7 @@
 <?php 
     global $tituloPagina;
     $tituloPagina = "";
-    include('Partes/cabecalho.php') 
+    include_once('Partes/Cabecalho.php') 
 ?>
         <header class="cabecalho-home">
             <h2 class="cabecalho-home__titulo">Texto Grande Bem Aqui!</h2>
@@ -14,7 +14,7 @@
             <div class="container">
                 <h2 class="home__titulo">O que fazemos</h2>
                 <section class="servicos__item">
-                    <img id="image1" src="img/icone-desenvolvimento-web.png" alt="Ícone de Dev Web">
+                    <img id="image1" src="IMG/icone-desenvolvimento-web.png" alt="Ícone de Dev Web">
                     <h3>Desenvolvimento Web</h3>
                     <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem tempore
                         sed
@@ -23,7 +23,7 @@
                         repellendus obcaecati in excepturi.</p>
                 </section>
                 <section class="servicos__item">
-                    <img src="img/icone-carrinho-compras.png" alt="Ícone de carrinho">
+                    <img src="IMG/icone-carrinho-compras.png" alt="Ícone de carrinho">
                     <h3>E-Commerce</h3>
                     <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem tempore
                         sed
@@ -32,7 +32,7 @@
                         repellendus obcaecati in excepturi.</p>
                 </section>
                 <section class="servicos__item">
-                    <img src="img/icone-cafe.png" alt="Ícone de café">
+                    <img src="IMG/icone-cafe.png" alt="Ícone de café">
                     <h3>Café</h3>
                     <p class="servicos__texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem tempore
                         sed
@@ -51,7 +51,7 @@
                 <h2 class="home__titulo home__titulo--branco">O QUE FALAM DE NÓS</h2>
                 <div class="depoimentos__caixa">
                     <section class="depoimentos__item">
-                        <img class="depoimentos__img" src="img/pessoa-1.jpg" alt="Faustão">
+                        <img class="depoimentos__img" src="IMG/pessoa-1.jpg" alt="Faustão">
                         <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
                             voluptas
                             nemo numquam minus
@@ -61,7 +61,7 @@
                     </section>
 
                     <section class="depoimentos__item">
-                        <img class="depoimentos__img" src="img/pessoa-1.jpg" alt="Faustão">
+                        <img class="depoimentos__img" src="IMG/pessoa-1.jpg" alt="Faustão">
                         <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
                             voluptas
                             nemo numquam minus
@@ -71,7 +71,7 @@
                     </section>
                     
                     <section class="depoimentos__item">
-                        <img class="depoimentos__img" src="img/pessoa-1.jpg" alt="Faustão">
+                        <img class="depoimentos__img" src="IMG/pessoa-1.jpg" alt="Faustão">
                         <p class="depoimentos__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
                             voluptas
                             nemo numquam minus
@@ -83,4 +83,4 @@
             </div><!--Fim container-->
         </section>
         <!--Fim seção depoimentos-->
-<?php include('Partes/rodape.php'); ?>
+<?php include_once('Partes/Rodape.php'); ?>

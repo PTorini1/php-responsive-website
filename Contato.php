@@ -1,7 +1,7 @@
 <?php 
     global $tituloPagina;
     $tituloPagina = "Contato";
-    include('Partes/cabecalho.php'); //Incluindo os arquivos de cabecalho e rodape para diminuir os codigos
+    include_once('Partes/Cabecalho.php'); //Incluindo os arquivos de cabecalho e rodape para diminuir os codigos
     $nome = ''; //Atribuindo variavel que vai receber o nome
     $email = '';
     $mensagem = '';
@@ -41,7 +41,7 @@
             <p class="text-center">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <form action="contato.php" class="formulario" method="POST">
+            <form action="Contato.php" class="formulario" method="POST">
                 <?php if($erroFormulario != ''): ?>
                     <div class="formulario__erro">
                         <?php echo $erroFormulario ?>
@@ -49,7 +49,7 @@
                 <?php endif; ?>
                 <?php if($sucessoFormulario != ''): ?>
                     <div class="formulario__sucesso">
-                        <?php echo $erroFormulario ?>
+                        <?php echo $sucessoFormulario ?>
                     </div>
                 <?php endif; ?>
                 <div class="formulario__grupo formulario__grupo--coluna--esquerda">
@@ -79,4 +79,4 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
             </iframe>
         </div>
-<?php include('Partes/rodape.php'); ?>
+<?php include_once('Partes/Rodape.php'); ?>
