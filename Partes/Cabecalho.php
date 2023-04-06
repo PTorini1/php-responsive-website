@@ -23,14 +23,14 @@
             <?php if($tituloPagina == ""):?> <!--Utilizando if para tornar o logo como link apenas se estiver fora do Index-->
                 <h1 class="logo">Design Responsivo</h1>
             <?php else:?>
-                <a href="Index.php" class="logo">Design Responsivo</a>
+                <a href="index.php" class="logo">Design Responsivo</a>
             <?php endif;?>
 
             <nav class="menu-principal menu-principal--fechado">
                 <!--A classe tem dois underlines, pois e um padrao do BEM (Block element modifier)-->
                 <button class="menu-principal__btn">Abrir/Fechar menu</button>
                 <ul class="menu-principal__lista">
-                    <li><a class="menu-principal__item  <?php echo $tituloPagina == '' ? 'menu-principal__item--atual' : '' ?>" href="Index.php">Home</a></li>
+                    <li><a class="menu-principal__item  <?php echo $tituloPagina == '' ? 'menu-principal__item--atual' : '' ?>" href="index.php">Home</a></li>
                     <li><a class="menu-principal__item  <?php echo $tituloPagina == 'Sobre nós' ? 'menu-principal__item--atual' : '' ?>" href="SobreNos.php">Sobre nós</a>
                     </li>
                     <li><a class="menu-principal__item  <?php echo $tituloPagina == 'Portfólio' ? 'menu-principal__item--atual' : '' ?>" href="Portfolio.php">Portfólio</a>

@@ -5,7 +5,7 @@
     <div class="rodape__linha-1">
         <div class="container">
             <div class="rodape__coluna">
-                <a href="Index.php" class="logo logo--branco"> Design Responsivo</a>
+                <a href="index.php" class="logo logo--branco"> Design Responsivo</a>
                 <!--Classe logo e um exemplo de componentizacao, classe que serve
                     para varios componentes-->
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ut at dolor eligendi.
@@ -32,7 +32,7 @@
             <div class="rodape__coluna">
                 <h2 class="rodape__titulo">Links</h2>
                 <ul class="rodape__lista-links">
-                    <li><a class="rodape__lista-links__item " href="Index.php">Home</a></li>
+                    <li><a class="rodape__lista-links__item " href="index.php">Home</a></li>
                     <li><a class="rodape__lista-links__item" href="SobreNos.php">Sobre nós</a></li>
                     <li><a class="rodape__lista-links__item" href="Portfolio.php">Portfólio</a></li>
                     <li><a class="rodape__lista-links__item" href="Contato.php">Contato</a></li>
